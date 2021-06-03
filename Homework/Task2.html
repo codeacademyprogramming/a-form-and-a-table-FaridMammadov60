@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Farid Mammadov">
+    <title>Task2</title>
+    <style>
+        .ex1 {
+            width: 20%;
+            font-size: 25px;
+            padding: 1px 5px;
+            cursor: pointer;
+        }
+
+        .ex2 {
+            width: 25%;
+
+        }
+
+        .ex3 {
+
+            width: 25%;
+            border: ridge;
+            background-color: whitesmoke;
+            color: slategray;
+            padding: 20px 5px;
+            font-size: 15px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .block {
+            display: block;
+            width: 25%;
+            border: none;
+            background-color: #04AA6D;
+            color: white;
+            padding: 4px 5px;
+            font-size: 15px;
+            cursor: pointer;
+            text-align: center;
+
+        }
+
+        .cedvel {
+            width: 35%;
+            border: none;
+            padding: 1px 1px;
+            font-size: 15px;
+            cursor: pointer;
+            text-align: left;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="ex3">Have an account? <a href="Log in">Log in</a> </h1>
+    <form autocomplete="off" novalidate>
+        <h2 class="ex1">Sign up</h2>
+        <div class="cedvel">
+            <label for="fullname"></label> <br />
+            <input type="text" id="fullname" placeholder="fullname" value="Caroline Forsey" name="fullname">
+        </div>
+        <div class="cedvel">
+            <label for="email">Did you mean <a href="https://www.google.com/">cforsey@gmail.com</a>?</label> <br />
+            <input type="email" id="email" placeholder="email" value="cforsey@gmail.com" name="email">
+        </div>
+        <div class="cedvel">
+            <label for="re-enter email"></label> <br />
+            <input type="emil" id="re-enter email" placeholder="Re-enter email" name="remail">
+        </div>
+        <div class="cedvel">
+            <label for="password"></label> <br />
+            <input type="password" id="password" placeholder="Password" name="password">
+        </div>
+        <div class="cedvel">
+            <label for="re-enter password"></label> <br />
+            <input type="password" id="re-enter password" placeholder="Re-enter password" name="rpassword">
+        </div>
+        <div>
+
+            <p class="ex2">
+                <input type="checkbox" id="update" name="checkbox">
+                <label for="update"> Receive our weekly newsletter and other occasional updates</label> <br>
+            </p>
+
+
+        </div>
+
+        <button class="block">Create account</button>
+    </form>
+</body>
+
+</html>
